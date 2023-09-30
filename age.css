@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/hero_image\ -\ Copy.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+   font-weight: 800;
+    color: white;
+    font-size: 26px;
+    font-family: monospace;
+}
+.container p{
+    align-items: center;
+}
+
+.settings{
+    position: absolute;
+bottom:30px;
+right: 20px;
+display: flex;align-items: center;
+font-size: 18px;
+}
+.settings i{
+    font-size: 35px;
+
+}
+.settings i:hover{
+    transform: rotate(380deg) 2s ease-in;
+}
+.settings-content input ,button{
+    padding: 6px;
+    font-size: 20px;
+}
