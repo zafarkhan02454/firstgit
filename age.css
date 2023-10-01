@@ -1,11 +1,15 @@
-*{
+/* *{
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+} */
+.hide{
+    display:none;
 }
 
 body {
-    background-image: url(/hero_image\ -\ Copy.png);
+  /* background-color: aquamarine; */
+    background-image: url(hero_image\ -\ Copy.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
